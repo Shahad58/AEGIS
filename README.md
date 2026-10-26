@@ -187,7 +187,7 @@ PUMP-01,2,642.2,1587.8,1402.6,21.65,553.9,2388.2,9051.5,47.6,522.1,2388.1,8132.8
 
 **SHODO** ⛥
 
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/YOUR_USERNAME)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)
 
 <br>
 <i>"Turning Sensor Data Into Your Next Big Decision."</i>
