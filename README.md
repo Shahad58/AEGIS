@@ -127,7 +127,8 @@ python app.py
 
 
 
-  <img width="1920" height="3750" alt="screencapture-127-0-0-1-5000-2026-10-26-17_44_51" src="https://github.com/user-attachments/assets/f11f0607-7529-481d-ab5a-21ee911fe9a4" />
+<img width="1920" height="3750" alt="screencapture-127-0-0-1-5000-2026-10-26-17_47_33" src="https://github.com/user-attachments/assets/a921942c-396f-4b3f-9c7e-c2d0b2db1ccc" />
+
 
   <br>
 </div>
