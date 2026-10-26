@@ -116,12 +116,19 @@ python app.py
 
 ---
 
-## 🖼️ 𝑽𝒊𝒔𝒖𝒂𝒍 𝑻𝒐𝒖𝒓 | جولة بصرية
+## 📸 𝑫𝒂𝒔𝒉𝒃𝒐𝒂𝒓𝒅 𝑷𝒓𝒆𝒗𝒊𝒆𝒘 | معاينة الواجهة
 
 <div align="center">
   <br>
-  <!-- استبدل هذا الرابط بصورة من مشروعك بعد رفعه -->
-  <img width="100%" alt="AEGIS Dashboard" src="https://via.placeholder.com/1200x700/050811/7ba3ff?text=AEGIS+Predictive+Maintenance+Dashboard" />
+
+ 
+<img width="1920" height="3832" alt="screencapture-127-0-0-1-5000-2026-10-26-17_44_16" src="https://github.com/user-attachments/assets/bdbd2ae3-1a9f-4641-ad73-39323967ebb5" />
+
+
+
+
+  <img width="1920" height="3750" alt="screencapture-127-0-0-1-5000-2026-10-26-17_44_51" src="https://github.com/user-attachments/assets/f11f0607-7529-481d-ab5a-21ee911fe9a4" />
+
   <br>
 </div>
 
@@ -154,8 +161,7 @@ python app.py
 └── README.md           ← This file
 ```
 
-> **ملاحظة:** لا تحتاج ملفات البيانات (NASA TXT) — الكود يولّد بيانات تدريب تلقائياً عند أول تشغيل.
-
+> **ملاحظة:** عند التجربة، تعمل البيانات التجريبية تلقائياً دون الحاجة إلى رفع أي ملفات. ويمكنك، إن رغبت، تحليل ملفاتك الخاصة بدلاً من ذلك.
 ---
 
 ## 📊 𝑰𝒏𝒑𝒖𝒕 𝑭𝒐𝒓𝒎𝒂𝒕 | تنسيق ملف البيانات
