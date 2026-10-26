@@ -20,7 +20,7 @@
 
 <br>
 
-[![Static UI Preview](https://img.shields.io/badge/🖥️_UI_PREVIEW-CLICK_HERE-6366f1?style=for-the-badge&logo=googlechrome&logoColor=white)](https://YOUR_USERNAME.github.io/YOUR_REPO_NAME/)
+[![Static UI Preview](https://img.shields.io/badge/🖥️_UI_PREVIEW-CLICK_HERE-6366f1?style=for-the-badge&logo=googlechrome&logoColor=white)](](https://shahad58.github.io/AEGIS/))
 [![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![Flask](https://img.shields.io/badge/Flask-Framework-000000?style=for-the-badge&logo=flask&logoColor=white)](https://flask.palletsprojects.com/)
 [![XGBoost](https://img.shields.io/badge/XGBoost-ML_Engine-10b981?style=for-the-badge)](https://xgboost.readthedocs.io/)
