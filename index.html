@@ -151,6 +151,11 @@
     html[dir="rtl"] .preview-badge { left: auto; right: 20px; }
     @media (max-width: 980px) { .chart-card, .chart-card.wide, .alerts-card { grid-column: span 12; } }
     @media (max-width: 640px) { .manual-row-cells { grid-template-columns: repeat(3, 1fr); } .hero h2 { font-size: 32px; } .kpi-value { font-size: 32px; } }
+    @media screen and (max-width: 768px) {
+      body, html { overflow-x: hidden; width: 100%; }
+      .container, section, div { max-width: 100% !important; box-sizing: border-box; }
+      h1 { font-size: 1.8rem !important; }
+      }
   </style>
 </head>
 <body>
@@ -545,7 +550,7 @@
     }
 
     // ==========================================
-    // Mock Actions (بدلاً من fetch APIs)
+    // Mock Actions 
     // ==========================================
     function runDemo() {
       setStatus(I18N[currentLang].processing); $("demoBtn").disabled = true;
