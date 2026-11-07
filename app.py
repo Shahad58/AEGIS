@@ -21,7 +21,7 @@ from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Table, Tabl
 app = Flask(__name__)
 
 # ==========================================
-# 1. محرك الذكاء الاصطناعي (الخلفية)
+# 1. AI Prediction Engine (Backend)
 # ==========================================
 
 NASA_FEATURES = ["s_2", "s_3", "s_4", "s_6", "s_7", "s_8", "s_9",
@@ -198,7 +198,7 @@ engine = PredictiveEngine()
 
 
 # ==========================================
-# 2. معالجة البيانات والمساعد الذكي (API)
+#2. Data Processing and AI Assistant (API)
 # ==========================================
 
 def _parse_uploaded_file(file_storage):
@@ -317,7 +317,7 @@ def _smart_assistant(question, prediction, lang="ar"):
 
 
 # ==========================================
-# 3. مسارات الويب (Web Routes & API)
+# 3. Web Routes and API Endpoints
 # ==========================================
 
 @app.route('/')
@@ -438,7 +438,7 @@ def report():
 
 
 # ==========================================
-# 4. الواجهة الأمامية (HTML + CSS + JS)
+# 4. Frontend Interface (HTML + CSS + JS)
 # ==========================================
 
 HTML_CONTENT = """
@@ -462,7 +462,7 @@ HTML_CONTENT = """
     html, body { min-height: 100vh; }
     body { font-family: 'Inter', 'Tajawal', sans-serif; color: var(--text); background: var(--bg); padding: 24px clamp(16px, 4vw, 56px) 40px; position: relative; overflow-x: hidden; }
 
-    /* خلفية النجوم والفضاء */
+
     #starsCanvas { position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: -2; pointer-events: none; }
     .aurora { position: fixed; inset: 0; background: radial-gradient(ellipse 70% 50% at 15% 0%, rgba(79, 124, 255, 0.15), transparent 60%), radial-gradient(ellipse 60% 40% at 85% 15%, rgba(167, 139, 250, 0.1), transparent 60%), radial-gradient(ellipse 50% 40% at 50% 100%, rgba(34, 211, 238, 0.05), transparent 60%); pointer-events: none; z-index: -1; }
     .grid-overlay { position: fixed; inset: 0; background-image: linear-gradient(rgba(99, 130, 246, 0.03) 1px, transparent 1px), linear-gradient(90deg, rgba(99, 130, 246, 0.03) 1px, transparent 1px); background-size: 56px 56px; pointer-events: none; z-index: -1; mask-image: radial-gradient(ellipse at center, black 40%, transparent 90%); }
@@ -771,7 +771,7 @@ HTML_CONTENT = """
   <footer class="footer">Created by SHODO <span style="color: #f43f5e; font-size:16px;">❤️</span></footer>
 
   <script>
-    // كود النجوم المتحركة في الخلفية
+
     const canvas = document.getElementById('starsCanvas');
     const ctx = canvas.getContext('2d');
     let width, height, stars = [];
@@ -814,7 +814,7 @@ HTML_CONTENT = """
     initCanvas();
     drawStars();
 
-    // المنطق الأساسي للتطبيق
+
     const I18N = {
       en: {
         brand: "AEGIS", heroTag: "Industrial Predictive Analytics", heroTitle: "Predict Failure.<br/>Extend Equipment Life.", heroSub: "Real-time Remaining Useful Life estimation with explainable AI diagnostics and an embedded engineering assistant.",
@@ -988,7 +988,7 @@ HTML_CONTENT = """
 """
 
 # ==========================================
-# 5. تشغيل السيرفر (Waitress Production Server)
+# 5. Server Initialization (Waitress Production Server)
 # ==========================================
 
 if __name__ == "__main__":
